@@ -2,6 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
+import { ImRocket } from 'react-icons/im'
 
 
 const Hero = () => {
@@ -35,7 +36,9 @@ const Hero = () => {
         </p>
         <a href='#about'>
           <MagicButton
-            title='Learn More'
+            title='Find out more'
+            icon={<ImRocket />}
+            position='right'
           />
         </a>
       </div>
