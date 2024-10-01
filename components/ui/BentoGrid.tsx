@@ -99,6 +99,7 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
+                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
             </div>
           </div>
         )}
