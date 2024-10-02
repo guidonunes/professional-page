@@ -83,9 +83,9 @@ export const BentoGridItem = ({
         )}>
           <div className="font-sans font-bold text-lg lg:text-3xl max-w-86 z-10">
             {title}
+          <div className="font-sans font-light white text-sm md:text-xs lg:text-base py-1 z-10">
+            {/* {description} */}
           </div>
-          <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
-            {description}
           </div>
 
 
@@ -94,40 +94,28 @@ export const BentoGridItem = ({
 
 
         {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+            <div className="flex gap-3 lg:gap-7 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {[' ','Ruby on Rails', 'PostgreSQL'].map((item) => (
+                {['Ruby on Rails', 'PostgreSQL', 'MongoDB'].map((item) => (
                   <span
                     key={id}
-                    className="lg:py-3 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50
+                    className="lg:py-3 lg:px-3 py-2 px-3 text-xs lg:text-base
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
                 ))}
-                <span className="lg:py-3 lg:px-3 py-3 px-3 rounded-lg text-center bg-[#10132E]"></span>
+                <span className="lg:py-3 lg:px-3 py-3 px-3 rounded-lg text-center bg-[#10132E] n"></span>
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {[ 'ReactJS ','NextJS', ' '].map((item) => (
+                {/* <span className="lg:py-3 lg:px-2 py-3 px-2 rounded-lg text-center bg-[#10132E]"></span> */}
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8 lg:px-8">
+                {[ 'ExpressJS ','ReactJS', 'NodeJS', ''].map((item) => (
                   <span
                   key={id}
-                  className="lg:py-3 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50
+                  className="lg:py-3 lg:px-3 py-2 p-8 text-xs lg:text-base
                   lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
-                  <span className="lg:py-3 lg:px-2 py-3 px-3 rounded-lg text-center bg-[#10132E]"></span>
-                    {item}
-                  </span>
-                ))}
-              </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {[ 'TypeScript',' ', 'NodeJS'].map((item) => (
-                  <span
-                  key={id}
-                  className="lg:py-3 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50
-                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                  <span className="lg:py-4 lg:px-1 py-3 px-1  rounded-lg text-center bg-[#10132E]"></span>
                     {item}
                   </span>
                 ))}
