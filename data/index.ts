@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication",
+    title: "I am committed to collaboration and open communication for successful development",
     description: "",
     className: "lg:col-span-2 lg:row-span-2 md:col-span-1 md:row-span-1 lg:min-h-[60vh]",
     imgClassName: "w-full h-full opacity-45",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm flexible with time zones, ensuring a smooth workflow",
     description: "",
     className: "lg:col-span-1 lg:row-span-2 md:col-span-2 md:row-span-1",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast driven by a passion for development",
     description: "",
     className: "lg:col-span-1 lg:row-span-1 md:col-span-1 md:row-span-1",
     imgClassName: "w-full h-full opacity-20",
@@ -48,7 +48,7 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Do you want to start a project together?",
+    title: "Let's team up and bring a project to life!",
     description: "",
     className: "lg:col-span-3 lg:row-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
