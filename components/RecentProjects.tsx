@@ -30,6 +30,17 @@ const RecentProjects = () => {
               <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
                 {des}
               </p>
+
+              <div className="flex items-center justify-between mt-7 mb-3">
+                <div className="flex items-center">
+                  {iconLists.map((icon) => (
+                    <div key={icon} className = 'border border-white/[0.2] rounded-full'>
+                      <img src={icon} alt={icon} className='p-1 w-8 h-8' />
+
+                    </div>
+                  ))}
+                </div>
+              </div>
             </PinContainer>
           </div>
         ))}

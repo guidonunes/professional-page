@@ -81,7 +81,7 @@ export const projects = [
     title: "Inspirational Web Page",
     des: "A homepage with an interactive to-do list.",
     img: "/p3.jpg",
-    iconLists: ["/re.svg", "/redux.svg", "/js.svg", "netlify.svg"],
+    iconLists: ["/rea.svg", "/redux.svg", "/js.svg", "netlify.svg"],
     link: "https://github.com/adrianhajdin/zoom-clone",
   },
 ];
