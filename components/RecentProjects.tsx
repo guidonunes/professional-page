@@ -21,7 +21,7 @@ const RecentProjects = () => {
                 <img
                   src={img}
                   alt={title}
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 w-full h-full object-cover opacity-80"
                 />
               </div>
               <h1 className="font-bold lg:2xl md:text-xl text-base line-clamp-1">
@@ -33,8 +33,10 @@ const RecentProjects = () => {
 
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
-                  {iconLists.map((icon) => (
-                    <div key={icon} className = 'border border-white/[0.2] rounded-full'>
+                  {iconLists.map((icon, index) => (
+                    <div key={icon} className = 'border border-white/[0.2] rounded-full bg-black flex justify-center items-center' style={{
+                     transform: `translateX(-${5 * index * 2}px)`
+                    }}>
                       <img src={icon} alt={icon} className='p-1 w-8 h-8' />
 
                     </div>

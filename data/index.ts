@@ -70,7 +70,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Fictional E-Commerce App",
+    title: "Fictional e-Commerce App",
     des: "An e-commerce platform built to demonstrate full CRUD functionality.",
     img: "/p2.png",
     iconLists: ["/ruby.svg", "/rails.svg", "/js.svg", "/sass.svg", "/postgres.svg", "heroku.svg"],
@@ -79,7 +79,7 @@ export const projects = [
   {
     id: 3,
     title: "Inspirational Web Page",
-    des: "A homepage with an interactive to-do list.",
+    des: "A homepage with an interactive and dynamic to-do list with real-time weather display",
     img: "/p3.jpg",
     iconLists: ["/rea.svg", "/redux.svg", "/js.svg", "netlify.svg"],
     link: "https://github.com/adrianhajdin/zoom-clone",
