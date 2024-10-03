@@ -79,7 +79,7 @@ export const projects = [
   {
     id: 3,
     title: "Inspirational Web Page",
-    des: "A homepage with an interactive and dynamic to-do list with real-time weather display",
+    des: "A homepage with an interactive and dynamic to-do list with real-time data.",
     img: "/p3.jpg",
     iconLists: ["/rea.svg", "/redux.svg", "/js.svg", "netlify.svg"],
     link: "https://github.com/adrianhajdin/zoom-clone",
