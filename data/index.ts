@@ -66,7 +66,7 @@ export const projects = [
     des: "A desktop tracker for cryptocurrencies and B3 stocks.",
     img: "/p1.jpg",
     iconLists: ["/ruby.svg", "/rails.svg", "/js.svg", "/sass.svg", "/postgres.svg", "heroku.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://portfolio-pilot-b6bdf21bc05a.herokuapp.com/",
   },
   {
     id: 2,
@@ -74,7 +74,7 @@ export const projects = [
     des: "An e-commerce platform built to demonstrate full CRUD functionality.",
     img: "/p2.png",
     iconLists: ["/ruby.svg", "/rails.svg", "/js.svg", "/sass.svg", "/postgres.svg", "heroku.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "https://bushido-silk-and-steel-3bfea4c2314b.herokuapp.com/",
   },
   {
     id: 3,
@@ -82,7 +82,7 @@ export const projects = [
     des: "A homepage with an interactive and dynamic to-do list with real-time data.",
     img: "/p3.jpg",
     iconLists: ["/rea.svg", "/redux.svg", "/js.svg", "netlify.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://journaly-brain-app.netlify.app/",
   },
 ];
 
