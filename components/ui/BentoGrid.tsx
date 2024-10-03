@@ -40,6 +40,8 @@ export const BentoGridItem = ({
   spareImg?: string;
   id: number;
 }) => {
+  const [copied, setCopied] = useState(false);
+
   return (
     <div
       className={cn(
@@ -125,7 +127,11 @@ export const BentoGridItem = ({
           {id ===5 && (
             <div className="mt-5 relative">
               <div className = { `absolute -bottom-5 right-0`}>
-                  //continue here
+                  <Lottie options ={{
+                    loop: copied,
+                    autoplay: copied,
+                    animationData: animationData,
+                  }} />
               </div>
 
             </div>
