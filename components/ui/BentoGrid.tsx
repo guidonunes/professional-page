@@ -52,9 +52,15 @@ export const BentoGridItem = ({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('guilherme.augd@gmail.com')
+    navigator.clipboard.writeText('guilherme.augd@gmail.com');
     setCopied(true);
-  }
+
+    // Reset copied to false after 2 seconds to allow animation to reset
+    setTimeout(() => {
+      setCopied(false);
+    }, 3000); // Adjust time as needed
+  };
+
 
   return (
     <div
