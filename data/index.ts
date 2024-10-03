@@ -62,7 +62,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "PortfolioPilot - Rails",
+    title: "PortfolioPilot",
     des: "Desktop tracker for cryptocurrencies and B3 stocks, integrating Web3 and market metrics with dynamic data visualization.",
     img: "/p1.png",
     iconLists: ["/ruby.svg", "/rails.svg", "/js.svg", "/sass.svg", "/postgres.svg", "heroku.svg"],
@@ -70,7 +70,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Fictional E-Commerce App - Rails",
+    title: "Fictional E-Commerce App",
     des: "An e-commerce platform for buying and selling goods, built to demonstrate full CRUD functionality.",
     img: "/p2.png",
     iconLists: ["/ruby.svg", "/rails.svg", "/js.svg", "/sass.svg", "/postgres.svg", "heroku.svg"],
@@ -84,7 +84,6 @@ export const projects = [
     iconLists: ["/re.svg", "/redux.svg", "/js.svg", "netlify.svg"],
     link: "https://github.com/adrianhajdin/zoom-clone",
   },
-
 ];
 
 export const testimonials = [

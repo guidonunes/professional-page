@@ -136,7 +136,7 @@ export const BentoGridItem = ({
                   <span
                   key={id}
                   className="lg:py-3 lg:px-3 py-2 p-8 text-xs lg:text-base
-                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  lg:opacity-100 rounded-lg text-center bg-[#10132E] px-8"
                   >
                     {item}
                   </span>
