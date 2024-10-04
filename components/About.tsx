@@ -7,7 +7,8 @@ export default function About() {
                   <div>
                     <br/>
                       <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl text-center">
-                          Hey, I&apos;m Guilherme
+                          Hey, I&apos;m
+                          <span className="text-purple"> Guilherme</span>
                       </h2>
                       <br />
                       <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 dark:text-gray-300 md:mt-8">
