@@ -4,6 +4,7 @@ import FloatingNav from '../components/ui/FloatingNav';
 import { ImHome } from 'react-icons/im';
 import RecentProjects from '@/components/RecentProjects';
 import { navItems } from '@/data/index';
+import About from '@/components/About';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <About />
       </div>
     </main>
   );

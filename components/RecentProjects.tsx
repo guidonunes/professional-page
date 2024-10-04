@@ -20,12 +20,12 @@ const RecentProjects = () => {
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]"></div>
                 <div>
-                  <img src='/bg.png' alt='bg-img' className="w-full h-full"/>
+                  <img src='/bg.png' alt='bg-img' className="w-full h-full object-cover"/>
                 </div>
                 <img
                   src={img}
                   alt={title}
-                  className="z-10 absolute bottom-0 w-full h-full object-cover opacity-80"
+                  className="z-10 absolute bottom-0 w-full h-full object-cover opacity-70"
                 />
               </div>
               <h2 className="font-bold lg:2xl md:text-xl text-base line-clamp-1">
