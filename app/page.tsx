@@ -5,6 +5,7 @@ import { ImHome } from 'react-icons/im';
 import RecentProjects from '@/components/RecentProjects';
 import { navItems } from '@/data/index';
 import About from '@/components/About';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         <About />
+        <Footer />
       </div>
     </main>
   );
