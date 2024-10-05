@@ -6,7 +6,7 @@ export default function About() {
               <div className="grid items-center grid-cols-1 md:grid-cols-2">
                   <div>
                     <br/>
-                      <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl text-center">
+                      <h2 className=" heading lg:max-w-[45vw]">
                           Hey, I&apos;m
                           <span className="text-purple"> Guilherme</span>
                       </h2>
