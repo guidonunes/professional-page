@@ -78,6 +78,32 @@
   }
 }
 
+/* Custom scrollbar styles */
+.scrollable-div {
+  overflow-y: auto; /* Ensure vertical scrolling */
+}
+
+/* Style the scrollbar track */
+.scrollable-div::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+.scrollable-div::-webkit-scrollbar-thumb {
+  background:#10132E; /* Change color and opacity */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Optional: Style the scrollbar thumb on hover */
+.scrollable-div::-webkit-scrollbar-thumb:hover {
+  background: #10132E; /* Change color and opacity on hover */
+}
+
+/* Optional: Style the scrollbar track */
+.scrollable-div::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); /* Background for the track */
+}
+
 @layer utilities {
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;

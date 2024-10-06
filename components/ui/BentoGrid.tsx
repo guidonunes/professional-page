@@ -114,36 +114,51 @@ export const BentoGridItem = ({
         {id === 2 && <GlobeDemo /> }
 
 
+        { id === 3 && (
+          <div className="flex justify-between items-start h-auto w-full overflow-hidden">
+            {/* Left-hand side: "My Tech Stack" title */}
+            <div className="flex-shrink-0">
+              <h2 className="font-bold text-lg lg:text-3xl text-white mb-2">
+                My Tech Stack
+              </h2>
+            </div>
 
-        {id === 3 && (
-            <div className="flex gap-3 lg:gap-7 w-fit absolute -right-3 lg:-right-2">
-              {/* tech stack lists */}
+            {/* Right-hand side: Tech stack columns */}
+            <div className="scrollable-div flex gap-6 lg:gap-7 h-32 md:h-36 lg:h-full overflow-y-auto"> {/* Set height to show 3 skills */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {['Ruby on Rails', 'PostgreSQL', 'MongoDB'].map((item) => (
+                {['Ruby on Rails', 'PostgreSQL', 'MongoDB', "TailwindCSS", "Python"].map((item, idx) => (
                   <span
-                    key={id}
-                    className="lg:py-3 lg:px-3 py-2 px-3 text-xs lg:text-base
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    key={idx}
+                    className="lg:py-3 lg:px-3 py-2 px-3 text-xs lg:text-base lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
                 ))}
-                <span className="lg:py-3 lg:px-3 py-3 px-3 rounded-lg text-center bg-[#10132E] n"></span>
               </div>
-                {/* <span className="lg:py-3 lg:px-2 py-3 px-2 rounded-lg text-center bg-[#10132E]"></span> */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8 lg:px-8">
-                {[ 'ExpressJS ','ReactJS', 'NodeJS', ''].map((item) => (
+
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+                {['ExpressJS', 'ReactJS', 'NodeJS', "NextJS", "SASS"].map((item, idx) => (
                   <span
-                  key={id}
-                  className="lg:py-3 lg:px-3 py-2 p-8 text-xs lg:text-base
-                  lg:opacity-100 rounded-lg text-center bg-[#10132E] px-8"
+                    key={idx}
+                    className="lg:py-3 lg:px-3 py-2 px-3 text-xs lg:text-base lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
                 ))}
               </div>
             </div>
-          )}
+          </div>
+        )}
+
+
+
+
+
+
+
+
+
+
           {id ===5 && (
             <div className="mt-5 relative">
               <div className = { `absolute -bottom-5 right-0`}>

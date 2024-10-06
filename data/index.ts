@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    // title: "My tech stack",
     description: "I'm constantly improving",
     className: "lg:col-span-1.5 lg:row-span-1 md:col-span-2 md:row-span-1",
     imgClassName: "opacity-20 h-full w-full",
