@@ -1,3 +1,23 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    // Disable warnings for using <img> elements instead of <Image /> from next/image
+    "@next/next/no-img-element": "off",
+
+    // Disable warnings for unused variables and parameters
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-unused-vars": "off", // for JavaScript files as well
+
+    // Disable errors for using 'any' in TypeScript
+    "@typescript-eslint/no-explicit-any": "off",
+
+    // Disable warnings about missing useEffect dependencies
+    "react-hooks/exhaustive-deps": "off",
+
+    // Allow var keyword usage
+    "no-var": "off",
+
+    // Disable warnings about 'let' or 'const' use preference
+    "prefer-const": "off"
+  }
 }

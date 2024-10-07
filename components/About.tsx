@@ -1,7 +1,7 @@
 // About.js
 export default function About() {
   return (
-      <section className="pt-10 overflow-hidden  bg-black-10 md:pt-0 sm:pt-16 2xl:pt-36">
+      <section className="pt-10 overflow-clip bg-black-10 md:pt-0 sm:pt-16 2xl:pt-36">
           <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl" id="about">
               <div className="grid items-center grid-cols-1 md:grid-cols-2">
                   <div>
@@ -16,7 +16,7 @@ export default function About() {
                       </p>
                   </div>
                   <div className="relative flex justify-center items-center">
-                      <img className="absolute inset-x-0 bottom-0 -mb-32 -translate-x-1/2 left-1/2 opacity-80" src="/blob.svg" alt="" />
+                      <img className="absolute inset-x-0 bottom-0 -mb-32 -translate-x-1/2 left-1/2 opacity-50" src="/blob.svg" alt="" />
                       <img className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src="/me.png" alt="" />
                   </div>
               </div>

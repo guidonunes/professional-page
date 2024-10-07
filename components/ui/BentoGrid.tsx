@@ -78,7 +78,7 @@ export const BentoGridItem = ({
           {img && (
             <img
             src={img}
-            alt={title}
+            alt="img"
             className={cn(imgClassName, "object-cover")}
             />
           )}
@@ -126,7 +126,7 @@ export const BentoGridItem = ({
             {/* Right-hand side: Tech stack columns */}
             <div className="scrollable-div flex gap-6 lg:gap-7 h-32 md:h-36 lg:h-full overflow-y-auto"> {/* Set height to show 3 skills */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {['Ruby on Rails', 'PostgreSQL', 'MongoDB', "TailwindCSS", "Python"].map((item, idx) => (
+                {['Rails', 'PostgreSQL', 'MongoDB', "TailwindCSS", "Python"].map((item, idx) => (
                   <span
                     key={idx}
                     className="lg:py-3 lg:px-3 py-2 px-3 text-xs lg:text-base lg:opacity-100 rounded-lg text-center bg-[#10132E]"
